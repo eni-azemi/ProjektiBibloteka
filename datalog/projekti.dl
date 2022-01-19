@@ -1,0 +1,112 @@
+
+% adding data in datalog
+
+arkiva('1A','8L','1').
+arkiva('2A','4L','2').
+arkiva('3A','5L','3').
+arkiva('4A','3L','4').
+arkiva('5A','5L','5').
+arkiva('6A','7L','6').
+arkiva('7A','9L','7').
+arkiva('8A','9L','8').
+arkiva('9A','5L','9').
+arkiva('10A','5L','10').
+
+
+detajeLexuesit('1','2021','15/07/2021','15','Besnik Rama','True').
+detajeLexuesit('2','2020','2020-03-01','15','Besnik Rama','False').
+detajeLexuesit('3','2021','17/03/2021','15','Besnik Rama','True').
+detajeLexuesit('4','2021','19/09/2021','15','Besnik Rama','True').
+detajeLexuesit('5','2018','2018-12-03','15','Arber Gashi','False').
+detajeLexuesit('6','2021','19/12/2021','15','Besnik Rama','True').
+detajeLexuesit('7','2021','2021-03-05','15','Besnik Rama','True').
+detajeLexuesit('8','2019','28/11/2021','15','Besnik Rama','False').
+detajeLexuesit('9','2020','2020-05-06','15','Besnik Rama','False').
+detajeLexuesit('10','2021','2021-12-12','15','Besnik Rama','True').
+
+
+huazimi('1H','5L', '3', '2020-10-15', '2020-10-30', '2020-10-29', '3P','null','2020').
+huazimi('2H','7L', '6', '2020-10-18', '2020-11-03', '2020-11-01','7P', 'null','2020').
+huazimi('3H','7L', '1', '2019-10-25', '2019-11-09', '2019-10-30', '3P', 'null','2019').
+huazimi('4H','9L', '7', '2019-11-11', '2019-11-26', '2019-11-20','3P', 'Demtim i librit','2019').
+huazimi('5H','6L', '5', '2021-1-11', '2021-11-16', '2021-11-15', '7P', 'null','2021').
+huazimi('6H','3L', '4', '2021-11-03', '2021-11-18', '2021-11-20', '3P','Vonese ne kthim','2021').
+huazimi('7H','4L', '2', '2019-11-25', '2019-12-10', '2019-12-05', '3P', 'null','2019').
+huazimi('8H','1L', '10', '2021-11-29', '2021-12-14', '2021-12-11', '7P', 'null','2021').
+huazimi('9H','2L', '9', '2021-11-30', '2021-12-15', '2021-12-14', '3P', 'null','2021').
+huazimi('10H','1L', '8', '2021-11-30', '2021-12-15', '2021-12-11', '3P', 'null','2021').
+huazimi('11H','2L', '3', '2020-11-15', '2020-11-30', '2020-11-29', '3P','null','2020').
+huazimi('12H','5L', '6', '2020-11-18', '2020-12-03', '2020-12-01','7P', 'null','2020').
+huazimi('13H','4L', '8', '2019-01-30', '2019-02-15', '2019-02-20', '3P','Vonese ne kthim','2019').
+huazimi('14H','7L', '6', '2020-01-15', '2020-01-30', '2020-01-31', '3P','Vonese ne kthim','2020').
+huazimi('15H','2L', '3', '2020-03-18', '2020-03-03', '2020-03-12','7P', 'Vonese ne kthim','2020').
+
+
+
+libri('1L','Ana Karenina','Leon Tolstoi','Drame','1500','12.12.2002','3P').
+libri('2L','Lufta dhe Paqja','Leon Tolstoi','Histori','1200','15.11.2002','4P').
+libri('3L','Kukulla','Ismail Kadare','Drame','2000','9.09.2002','7P').
+libri('4L','Mrekullia','R.J Palacio','Drame','241','31.01.2003','4P').
+libri('5L','Për kë bien këmbanat','Ernest Heminway','Aventure','300','4.02.2004','7P').
+libri('6L','Mbi origjinën e specieve','C.Darwin','Enciklopedi','500','05.06.2004','3P').
+libri('7L','Rapsodi të një poeme arbëreshe','Jeronim De Rada','Drame','2500','15.03.2005','7P').
+libri('8L','Juvenilia','Ndre Mjeda','Drame','150,19.02.2007','3P').
+libri('9L','Tregtar flamujsh','Ernest Koliqi','Drame','250','22.03.2020','7P').
+libri('10L','Qyteti I Fundit','Petro Marko','Aventure','5000','21.03.2002','4P').
+
+
+puntori('1P','Besart','Ramadani','Drejtor','Kosove','Prishtine','Fadil Vata','45323223','15000').
+puntori('2P','Albin','Ademi','Zv.Drejtor','Kosove','Peje','Fadil Kastrati','49434323','1000').
+puntori('3P','Arber','Gashi','Administratore','Kosove','Kline','Halil Vata','4932144','1500').
+puntori('4P','Blend','Krasniqi','IT','Kosove','Gjakove','Gjergj Kastrioti','43243113','800').
+puntori('5P','Visar','Opoja','Roje','Kosove','Gjilan','Ibrahim Rugova','383534213','900').
+puntori('6P','Alban','Maliqi','Sherbime','Kosove','Viti','Gjema Berisha','3835321451','500').
+puntori('7P','Besnik','Rama','Zv.Administrator','Kosove','Ferizaj','Rr Shkolla','3834321432','450').
+puntori('8P','Kastriot','Morina','Roje','Kosove','Istog','Ismet Munishi','3834937231','200').
+puntori('9P','Behar','Shaqiri','Bodyguard','Kosove','Podujeve','Robert Gajdiku','441241242','300').
+puntori('10P','Arben','Ademi','Pastrues','Kosove','Prishtine','Rruga B','3833213123','250').
+
+
+libratDemtuar('1D','8L','Demtim i kopertines','2020-10-15','6P').
+libratDemtuar('2D','9L','Demtim i kopertines','2020-11-16','6P').
+libratDemtuar('3D','5L','Demtim i disa faqeve','2020-12-31','2P').
+libratDemtuar('4D','3L','Demtim i kopertines','2021-05-07','6P').
+libratDemtuar('5D','10L','Humbje e librit','2021-11-22','6P').
+libratDemtuar('6D','2L','Demtim i disa faqeve','2020-12-16','2P').
+libratDemtuar('7D','5L','Demtim i kopertines','2020-11-1','3P').
+libratDemtuar('8D','3L','Demtim i disa faqeve','2020-2-12','6P').
+libratDemtuar('9D','1L','Demtim i kopertines','2020-1-01','3P').
+libratDemtuar('10D','7L','Demtim i disa faqeve','2021-12-16','6P').
+
+
+lexuesi('1','Andi','Gashi','Ardi','Mashkull','13.03.2001','Rr Nena Tereze Kosove 10000','Prishtine','00-383-49-200-300','andigashi@hotmail.com','Student').
+lexuesi('2','Ardi','Krasniqi','Medion','Mashkull','19.09.2003','Rr.Ali Sokoli Kosove 10000','Prishtine','00-383-44-225-707','ardi1909@gmail.com','Student').
+lexuesi('3','Zana','Hoxha','Kastriot','Femer','15.06.2002','Rr.Ganimete Terbeshi Kosove 10000','Prishtine','00-383-49-699999','zana15@uni-pr.edu','Student').
+lexuesi('4','Dea','Berisha','Adriatik','Femer','22.01.2000','Rr.Xhevdet Doda Kosove 10000','Prishtine','00-383-49-151603','dea.br@ymail.com','Student').
+lexuesi('5','Ylleza','Rama','Bekim','Femer','30.05.2001','Rr.Garibaldi Kosove 10000','Prishtine','00-383-44-903904','ylleza30@outlook.com','Student').
+lexuesi('6','Dora','Ahmetaj','Fatlum','Femer','19.04.2002','Rr.Ukshin Hoti Kosove 10000','Prishtine','00-383-49-152030','dora.ah@gmail.com','Student').
+lexuesi('7','Jon','Hoxhaj','Armend','Mashkull','12.12.2003','Rr.Liria Kosove 21000','Prizren','00-383-45-231150','jonihoxha@outlook.com','Student').
+lexuesi('8','Jon','Gashi','Fisnik','Mashkull','01.07.1999','Rr.UQK Kosove 10000','Gjilan','00-383-45-291568','jongashi@outlook.com','Student').
+lexuesi('9','Daorsa','Selimi','Arber','Femer','19.06.2002','Rr.Garibaldi Kosove 10000','Prishtine','00-383-49-205130','daorsa1906@gmail.com','Student').
+lexuesi('10','Blendion','Muqiqi','Besnik','Mashkull','15.05.2001','Rr.Ibrahim Rugova Kosove 10000','Prishtine','00-383-44-115890','blendi.oni@hotmail.com','Student').
+
+
+% queries
+
+% Query 1
+% get(B,D,C,J):-lexuesi(A,B,C,D,E,F,G,J,K,V,O), J='Prishtine'
+
+% Query 2
+% result(EM,MB):-group_by(huazimi(H1,LI1,LEX1,DH1,AK1,DK1,P1,VE1,'2020'), [LEX1], R=count),R>2 , lexuesi(LID,EM,MB,EP,GJ,DL,RR,K,NR,E,PR), LEX1=LID.
+
+
+% Query 3
+% result(LEX1,EM,MB,VH1,VE1,):-huazimi(H1,LI1,LEX1,DH1,AK1,DK1,P1,VE1,VH1),libri(LI1,T1,A1,ZH1,D1,K1,PU1),lexuesi(LID,EM,MB,EP,GJ,DL,RR,K,NR,E,PR),(VH1='2020' ; VH1='2021'),VE1='Vonese ne kthim',LID=LEX1.
+
+
+
+% some prequery for query number 4
+
+huazimiPare(LI1,T1):-huazimi(H1,LI1,LEX1,DH1,AK1,DK1,P1,VE1,VH1),libri(LI1,T1,A1,ZH1,D1,K1,PU1),(VH1='2019';VH1='2020').
+huazimiDyte(LI1,T1):-huazimi(H1,LI1,LEX1,DH1,AK1,DK1,P1,VE1,VH1),libri(LI1,T1,A1,ZH1,D1,K1,PU1),VH1='2021'.
+%queryFinal(LI1,T1):- huazimiPare(LI1,T1), not huazimiDyte(LI1,T1).
